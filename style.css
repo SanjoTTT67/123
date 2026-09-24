@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color:palegreen;
+    color:rgb(5, 5, 5)
+}
+.row {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin: 30px;
+}
+.box {
+    width: 100px;
+    height: 100px;
+    background-color:rgb(222, 255, 222);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(0, 0, 0);
+    border-radius: 3px;
+    transition: 1s;
+}
+.translate:hover {
+    transform: translate(100px);
+}
+.rotate:hover {
+    transform: rotate(360deg);
+}
+.scale:hover {
+    transform: scale(2);
+}
+.skew:hover {
+    transform: skew(20deg);
+}
